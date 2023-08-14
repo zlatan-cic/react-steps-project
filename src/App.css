@@ -23,7 +23,7 @@ body {
   -webkit-transform: translate(-50%, -50%);
 }
 
-.container {
+.container-steps {
   width: 60rem;
   background-color: #f7f7f7;
   border-radius: 7px;
@@ -98,7 +98,17 @@ body {
   background-color: #242526 ;
   color: #fff;
   width: 10rem;
+  transition: ease-in-out .3s;
 }
+
+.btn:hover{
+  background-color: #393835;
+  color: #FFDE17;
+  /* position: relative;
+  top: .1rem; */
+}
+
+
 
 h3 {
   margin: 0;
@@ -107,15 +117,20 @@ h3 {
 
 .close {
   position: absolute;
-  top: 16px;
-  right: 16px;
+  top: 1.5rem;
+  right: 1.5rem;
   border: none;
-  background: none;
+  width: 4.9rem;
+  background-color: #202020;
+  color: white;
+  border-radius: 50%;
   cursor: pointer;
-  font-size: 40px;
-  color: inherit;
+  font-size: 4rem;
+  transition: ease-in-out .3s;
 }
 
 .close:hover {
   color: #FFDE17;
+  background-color: #393835;
+  
 }
