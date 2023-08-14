@@ -5,7 +5,6 @@ This project is a simple interactive guide that walks you through a series of st
 ## Screenshot
 ![Screenshot 1](./src/img/react-steps.png)
 
-To get started with this project, follow these steps:
 
 ## Getting Started
 
